@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container:hover {
+  background-color: rgb(250, 231, 254);
+}
+
+.container:hover .closeIcon {
+  visibility: visible;
+}
+
+.container span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.description {
+  font-weight: 500;
+}
+
+.closeIcon {
+  visibility: hidden;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+}

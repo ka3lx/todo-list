@@ -1,0 +1,46 @@
+.container {
+  height: 8vh;
+  max-height: 100px;
+  min-height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.container input {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 8rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: transparent;
+  border: 1px solid black;
+}
+
+.createBtn {
+  position: absolute;
+  right: 1rem;
+  height: 60%;
+  padding: 0 1.5rem;
+  background-color: rgb(185, 53, 209);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(166, 47, 187);
+}
+
+button:focus {
+  background-color: rgb(166, 47, 187);
+  outline: none;
+}

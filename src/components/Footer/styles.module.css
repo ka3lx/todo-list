@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgb(131, 131, 131);
+}
+
+.clear:hover {
+  cursor: pointer;
+}

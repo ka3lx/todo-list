@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif, monospace;
+  scrollbar-width: none;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
